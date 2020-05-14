@@ -1,0 +1,2 @@
+- Create a [MongoDB Cluster](https://cloud.mongodb.com/)
+- Connect your application by creating a .env file and copy/pasting the URI into it to make the connection
