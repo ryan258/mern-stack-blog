@@ -1,3 +1,5 @@
+Following along with the [Learn the MERN Stack](https://www.youtube.com/playlist?list=PL6jnTQwFvrdak_WQ0XK9WKzgbemndQ0rT) playlist.
+
 - Create a [MongoDB Cluster](https://cloud.mongodb.com/)
 - Connect your application by creating a .env file and copy/pasting the URI into it to make the connection
 

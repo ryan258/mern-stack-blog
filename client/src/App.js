@@ -1,14 +1,16 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
+import Header from "./components/layouts/Header";
+import Navbar from "./components/layouts/Navbar";
+import Footer from "./components/layouts/Footer";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>:D</h1>
-        <button className="btn btn-primary">Button!</button>
-      </header>
+      <Header />
+      <Navbar />
+      <Footer />
     </div>
   );
 }
