@@ -1,6 +1,8 @@
 - Create a [MongoDB Cluster](https://cloud.mongodb.com/)
 - Connect your application by creating a .env file and copy/pasting the URI into it to make the connection
 
+To run dev server use the command: nodemon server.js
+
 After setting up your first Model/Route go to Atlas and 'Create Database' in this case:
 
 - Database Name: mern_blog
@@ -12,3 +14,10 @@ mongodb.net/INSERT_DATABASE_NAME?retryWrites=true&w=majority
 Then you can insert some documents to act as dummy content by following your schema as you insert dummy objects on Atlas.
 
 Use something like postman or insomnia to test
+
+Go on to build out the CRUD routes:
+
+- Create a post route to add a test node.
+- REQUEST FIND ARTICLE BY ID
+- REQUEST ARTICLE BY ID AND UPDATE
+- REQUEST ARTICLE BY ID AND DELETE IT
