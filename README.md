@@ -21,3 +21,12 @@ Go on to build out the CRUD routes:
 - REQUEST FIND ARTICLE BY ID
 - REQUEST ARTICLE BY ID AND UPDATE
 - REQUEST ARTICLE BY ID AND DELETE IT
+
+## Develop the Client Side
+
+Use create-react-app to create the client folder
+
+Use two terminals:
+
+- in root: node server.js
+- in client: yarn start
