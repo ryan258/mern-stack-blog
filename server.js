@@ -20,4 +20,7 @@ mongoose.connect(uri, {
 const connection = mongoose.connection;
 connection.once("open", () => console.log("MongoDB connected successfully!"));
 
+const articlesRouter = require("./routes/articles");
+app.use("/articles", articlesRouter);
+
 app.listen(port, () => console.log(`The app is running on port: ${port}`));
