@@ -13,7 +13,7 @@ function App() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:8080/articles")
+      .get("/articles")
       .then((res) => setPosts(res.data))
       .catch((error) => console.log(error));
   });
@@ -22,8 +22,6 @@ function App() {
     <div className="App">
       <Header />
       <Navbar />
-      {/* <Articles /> */}
-      {/* <Route to="/" component={Articles} /> */}
       <Route to="/" render={() => <Articles posts={posts} />} />
       <Footer />
     </div>

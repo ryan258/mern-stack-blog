@@ -6,7 +6,7 @@ const Header = () => {
     <MainContainer>
       <h1>
         Welcome to the <br />
-        MERN Stack Blog!
+        MERN Stack Blog!!!
       </h1>
     </MainContainer>
   );
