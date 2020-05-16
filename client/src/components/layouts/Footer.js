@@ -24,7 +24,7 @@ export default Footer;
 const FooterContainer = styled.footer`
   background: #344;
   height: 4rem;
-  position: fixed;
+  /* position: fixed; */
   left: 0;
   bottom: 0;
   width: 100%;
